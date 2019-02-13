@@ -27,14 +27,9 @@ import ca.uqac.lif.cep.functions.NothingToReturnException;
 import ca.uqac.lif.cep.functions.UnaryFunction;
 
 /**
-* Function that returns the number of bytes written by a method call.
-* This is done by loading a text file that stipulates all the method
-* signatures (name and arguments) that perform write operations, and
-* which of their arguments corresponds to the data being written in
-* each case. The function returns 0 if no data is written by a method
-* call.
+* Function that checks if a string is present in a file.
 * 
-* @author Sylvain Hallé
+* @author Boussaha Mohamed Racem
 */
 public class ChecknFile extends UnaryFunction<Object,Boolean> 
 {
@@ -65,18 +60,17 @@ public class ChecknFile extends UnaryFunction<Object,Boolean>
 
 	@Override
 	public Boolean getValue(Object x) throws FunctionException ,NothingToReturnException
-	{//long startTime = System.nanoTime();
+	{
 		try {
-			//System.out.print(fileToWatch);
+	
 			Stream<String> stream = Files.lines(Paths.get(fileToWatch));
 			m_argumentsToWatch = new ArrayList<String>();
 			if (stream != null)
 				readArgumentsToWatch(stream);
 			java.util.Iterator<String> it = m_argumentsToWatch.iterator();
-			//System.out.println("checking "+x);
+			
 			while (it.hasNext()) {
 				String g = it.next();
-				//System.out.println("check "+g);
 				if (g.equals(x.toString().trim())){			 
 					return true;
 					}
