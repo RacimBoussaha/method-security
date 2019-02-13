@@ -30,14 +30,10 @@ import ca.uqac.lif.cep.methods.MethodEvent.MethodCall;
 import ca.uqac.lif.cep.methods.MethodEvent2.MethodCall2;
 
 /**
-* Function that returns the number of bytes written by a method call.
-* This is done by loading a text file that stipulates all the method
-* signatures (name and arguments) that perform write operations, and
-* which of their arguments corresponds to the data being written in
-* each case. The function returns 0 if no data is written by a method
+* Function that checks the annotation of a method call a method
 * call.
 * 
-* @author Sylvain Hallé
+* @author Boussaha Mohamed Racem
 */
 public class CheckAnnotation extends UnaryFunction<Object,Boolean> 
 {
@@ -70,8 +66,7 @@ CheckAnnotation()
 
 @Override
 public Boolean getValue(Object x) throws FunctionException 
-{//long startTime = System.nanoTime();
-	
+{
 	Boolean ret =false;
 	
 	if (!(x instanceof MethodCall2))
