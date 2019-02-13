@@ -1,0 +1,30 @@
+call //   // java.util.concurrent.Semaphore.<init> // java.lang.Integer // 4 // NAN // 0 // NAN 
+output // java.util.concurrent.Semaphore@682a0b20[Permits = 4]
+call // void // MonitoredProgram.main // [Ljava.lang.String; // [Ljava.lang.String;@448139f0 // NAN // 0 // NAN
+output // NAN 
+call // void // java.util.HashMap.<init> // NAN // NAN // NAN // 1 // NAN 
+output // {}
+call // void // java.lang.String.<init> // java.lang.String // racim // NAN // 1 // NAN 
+output // racim
+call // void // java.lang.String.<init> // java.lang.String // rachid // NAN // 1 // NAN 
+output // rachid
+call // void // java.lang.String.<init> // java.lang.String // hakim // NAN // 1 // NAN 
+output // hakim
+call // class java.lang.Integer // java.lang.Integer.valueOf // java.lang.Integer // 1 // NAN // 1 // NAN 
+output // 1
+call // class java.lang.Object // java.util.HashMap.put // java.lang.Integer // java.lang.String // 1 // racim // NAN // 1 // 999966131
+output // NAN
+call // class java.lang.Integer // java.lang.Integer.valueOf // java.lang.Integer // 2 // NAN // 1 // NAN 
+output // 2
+call // class java.lang.Object // java.util.HashMap.put // java.lang.Integer // java.lang.String // 2 // rachid // NAN // 1 // 999966131
+output // NAN
+call // class java.lang.Integer // java.lang.Integer.valueOf // java.lang.Integer // 1 // NAN // 1 // NAN 
+output // 1
+call // class java.lang.Object // java.util.HashMap.put // java.lang.Integer // java.lang.String // 1 // hakim // NAN // 1 // 999966131
+output // racim
+call // class java.lang.Integer // java.lang.Integer.valueOf // java.lang.Integer // 1 // NAN // 1 // NAN 
+output // 1
+call // class java.lang.Object // java.util.HashMap.get // java.lang.Integer // 1 // NAN // 1 // 999966131
+output // hakim
+call // void // java.io.PrintStream.println // java.lang.String // hakim // NAN // 1 // 1480010240
+output // NAN

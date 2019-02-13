@@ -1,0 +1,26 @@
+call // void // MonitoredProgram.main // [Ljava.lang.String; // [Ljava.lang.String;@72ea2f77 // NAN // 0 // NAN
+output // NAN 
+call // void // java.io.FileReader.<init> // java.lang.String // NoSendAfterReading.txt // NAN // 1 // NAN 
+output // java.io.FileReader@3d075dc0
+call // void // java.io.BufferedReader.<init> // java.io.FileReader // java.io.FileReader@3d075dc0 // NAN // 1 // NAN 
+output // java.io.BufferedReader@214c265e
+call // class java.lang.String // java.io.BufferedReader.readLine // NAN // NAN // NAN // 1 // 558638686
+output // racim	
+call // void // java.io.BufferedReader.close // NAN // NAN // NAN // 1 // 558638686
+output // NAN
+call // void // java.net.Socket.<init> // java.lang.String // java.lang.Integer // localhost // 4444 // NAN // 1 // NAN 
+output // Socket[addr=localhost/127.0.0.1,port=4444,localport=50298]
+call // void // java.io.PrintStream.println // java.lang.String // Client: Connection Established // NAN // 1 // 1828972342
+output // NAN
+call // class java.io.OutputStream // java.net.Socket.getOutputStream // NAN // NAN // NAN // 1 // 931919113
+output // java.net.SocketOutputStream@5fd0d5ae
+call // class java.io.OutputStream // java.io.OutputStreamWriter.<init> // java.net.SocketOutputStream // java.net.SocketOutputStream@5fd0d5ae // NAN // 1 // NAN 
+output // java.io.OutputStreamWriter@2d98a335
+call // class java.io.OutputStream // java.io.BufferedWriter.<init> // java.io.OutputStreamWriter // java.io.OutputStreamWriter@2d98a335 // NAN // 1 // NAN 
+output // java.io.BufferedWriter@16b98e56
+call // void // java.io.BufferedWriter.write // java.lang.String // racim	 // 8 // 1 // 381259350
+output // NAN
+call // void // java.io.BufferedWriter.flush // NAN // NAN // NAN // 1 // 381259350
+output // NAN
+call // void // java.net.Socket.close // NAN // NAN // NAN // 1 // 931919113
+output // NAN

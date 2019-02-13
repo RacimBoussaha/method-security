@@ -1,0 +1,26 @@
+call // void // MonitoredProgram.main // [Ljava.lang.String; // [Ljava.lang.String;@72ea2f77 // NAN // 0 // NAN
+output // NAN 
+call // void // java.util.Vector.<init> // NAN // NAN //  // NAN // 1 // NAN 
+output // []
+call // boolean // java.util.Vector.add // java.lang.String // element_1 // NAN // 1 // 558638686
+output // true
+call // boolean // java.util.Vector.add // java.lang.String // element_2 // NAN // 1 // 558638686
+output // true
+call // boolean // java.util.Vector.add // java.lang.String // element_3 // NAN // 1 // 558638686
+output // true
+call // boolean // java.util.Vector.add // java.lang.String // element_4 // NAN // 1 // 558638686
+output // true
+call // boolean // java.util.Vector.add // java.lang.String // element_5 // NAN // 1 // 558638686
+output // true
+call // interface java.util.Iterator // java.util.Vector.iterator // NAN // NAN //  // NAN // 1 // 558638686
+output // java.util.Vector$Itr@7ba4f24f
+call // void // java.util.Iterator.remove // NAN // NAN //  // NAN // 1 // 2074407503
+output // NAN
+call // class java.lang.Object // java.util.Iterator.next // NAN // NAN //  // NAN // 1 // 2074407503
+output // element_2
+call // void // java.util.Iterator.remove // NAN // NAN //  // NAN // 1 // 2074407503
+output // NAN
+call // class java.lang.Object // java.util.Iterator.next // NAN // NAN //  // NAN // 1 // 2074407503
+output // element_1
+call // void // java.util.Iterator.remove // NAN // NAN //  // NAN // 1 // 2074407503
+output // NAN

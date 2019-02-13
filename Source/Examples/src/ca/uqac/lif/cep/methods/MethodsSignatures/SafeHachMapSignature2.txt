@@ -1,0 +1,1 @@
+java.util.HashMap.get java.lang.Integer 0

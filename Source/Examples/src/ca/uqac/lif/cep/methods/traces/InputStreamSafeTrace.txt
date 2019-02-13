@@ -1,0 +1,18 @@
+call // void // MonitoredProgram.main // [Ljava.lang.String; // [Ljava.lang.String;@72ea2f77 // NAN // 0 // NAN
+output // NAN 
+call // void // java.io.FileInputStream.<init> // java.lang.String // Testtextfile.txt // NAN // 1 // NAN 
+output // java.io.FileInputStream@3d075dc0
+call // int // java.io.FileInputStream.read // [B // [B@448139f0 // NAN // 1 // 1023892928
+output // -1
+call // void // java.io.FileInputStream.close // NAN // NAN //  // NAN // 1 // 1023892928
+output // NAN
+call // void // java.io.FileOutputStream.<init> // java.lang.String // filename.txt // NAN // 1 // NAN 
+output // java.io.FileOutputStream@3b9a45b3
+call // void // java.io.OutputStreamWriter.<init> // java.io.FileOutputStream // java.lang.String // java.io.FileOutputStream@3b9a45b3 // utf-8 // NAN // 1 // NAN 
+output // java.io.OutputStreamWriter@7699a589
+call // void // java.io.BufferedWriter.<init> // java.io.OutputStreamWriter // java.io.OutputStreamWriter@7699a589 // NAN // 1 // NAN 
+output // java.io.BufferedWriter@58372a00
+call // void // java.io.Writer.write // java.lang.String // Something // 11 // 1 // 1480010240
+output // NAN
+call // void // java.io.OutputStreamWriter.close // NAN // NAN //  // NAN // 1 // 1989780873
+output // NAN

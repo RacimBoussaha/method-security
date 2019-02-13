@@ -1,0 +1,544 @@
+call // void // java.util.concurrent.Semaphore.<init> // java.lang.Integer // 4 // NAN // 0 // NAN 
+output // java.util.concurrent.Semaphore@682a0b20[Permits = 4]
+call // void // MonitoredProgram.main // [Ljava.lang.String; // [Ljava.lang.String;@448139f0 // NAN // 0 // NAN 
+call // void // java.lang.StringBuilder.<init> // java.lang.String // Total available Semaphore permits :  // NAN // 1 // NAN 
+output // Total available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 4
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 4 // NAN // 1 // 999966131
+output // Total available Semaphore permits : 4
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 999966131
+output // Total available Semaphore permits : 4
+call // void // java.io.PrintStream.println // java.lang.String // Total available Semaphore permits : 4 // NAN // 1 // 1480010240
+output // NAN
+call // void // MonitoredProgram$MyATMThread.<init> // java.lang.String // A // NAN // 1 // NAN 
+call // void // MonitoredProgram$MyATMThread.<init> // java.lang.String // A // NAN // 2 // 81628611
+output // NAN
+output // Thread[Thread-0,5,main]
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 1 // 81628611
+output // NAN
+call // void // MonitoredProgram$MyATMThread.run // NAN // NAN // NAN // 2 // 81628611
+call // void // MonitoredProgram$MyATMThread.run // NAN // NAN // NAN // 2 // 81628611
+call // void // MonitoredProgram$MyATMThread.<init> // java.lang.String // B // NAN // 4 // 931919113
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 4 // 931919113
+output // NAN
+output // Thread[Thread-1,5,main]
+output // A
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 3 // NAN 
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 3 // NAN 
+output // A
+output // NAN
+call // class java.lang.StringBuilder // MonitoredProgram$MyATMThread.<init> // java.lang.String // C // NAN // 3 // NAN 
+call // class java.lang.StringBuilder // MonitoredProgram$MyATMThread.<init> // java.lang.String // C // NAN // 3 // NAN 
+call // void // MonitoredProgram$MyATMThread.run // NAN // NAN // NAN // 4 // 931919113
+output // A : acquiring lock...
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 5 // 1607521710
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 5 // 1607521710
+output // NAN
+output // A : acquiring lock...
+output // Thread[Thread-2,5,main]
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 3 // 1810070150
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 3 // 1810070150
+output // NAN
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 4 // 1810070150
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 4 // 1810070150
+call // void // MonitoredProgram$MyATMThread.run // NAN // NAN // NAN // 4 // 1810070150
+output // A
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // C // NAN // 6 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // C // NAN // 6 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // C // NAN // 6 // NAN 
+output // NAN
+output // A
+output // Thread[Thread-3,5,main]
+output // C
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 5 // NAN 
+call // void // java.lang.StringBuilder.<init> // java.lang.String // C // NAN // 5 // NAN 
+output // NAN
+call // void // MonitoredProgram$MyATMThread.<init> // java.lang.String // E // NAN // 5 // NAN 
+output // C
+call // class java.lang.StringBuilder // MonitoredProgram$MyATMThread.<init> // java.lang.String // E // NAN // 7 // 1452512149
+call // class java.lang.StringBuilder // MonitoredProgram$MyATMThread.<init> // java.lang.String // E // NAN // 7 // 1452512149
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : available Semaphore permits now:  // NAN // 7 // 1452512149
+call // void // MonitoredProgram$MyATMThread.run // NAN // NAN // NAN // 7 // 1452512149
+output // A : available Semaphore permits now: 
+output // NAN
+output // Thread[Thread-4,5,main]
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 7 // 1747585824
+output // C : acquiring lock...
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 6 // 1452512149
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 6 // 1452512149
+output // NAN
+call // class java.lang.String // MonitoredProgram$MyATMThread.<init> // java.lang.String // F // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // D // NAN // 7 // NAN 
+call // class java.lang.String // MonitoredProgram$MyATMThread.<init> // java.lang.String // F // NAN // 8 // 764977973
+call // void // MonitoredProgram$MyATMThread.run // NAN // NAN // NAN // 9 // 600631801
+output // C : acquiring lock...
+output // NAN
+output // 4
+output // Thread[Thread-5,5,main]
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 4 // NAN // 8 // 764977973
+call // void // MonitoredProgram$MyATMThread.start // NAN // NAN // NAN // 8 // 764977973
+call // void // java.io.PrintStream.println // java.lang.String // C : acquiring lock... // NAN // 8 // 764977973
+output // A : available Semaphore permits now: 4
+output // NAN
+output // NAN
+output // NAN
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 6 // NAN 
+output // D
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // C // NAN // 6 // NAN 
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // D // NAN // 8 // 764977973
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // D // NAN // 8 // 764977973
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // D // NAN // 8 // 764977973
+output // D
+output // E
+output // C
+call // class java.lang.StringBuilder // java.lang.StringBuilder.<init> // java.lang.String // C // NAN // 9 // NAN 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.<init> // java.lang.String // C // NAN // 9 // NAN 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.<init> // java.lang.String // C // NAN // 9 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 9 // NAN 
+output // A : available Semaphore permits now: 4
+call // void // java.io.PrintStream.println // java.lang.String // A : available Semaphore permits now: 4 // NAN // 9 // 1480010240
+output // F
+output // D : acquiring lock...
+output // E
+output // C
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 9 // 1182063392
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 9 // 1182063392
+output // NAN
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : acquiring lock... // NAN // 9 // 1747585824
+call // void // java.util.concurrent.Semaphore.acquire // NAN // NAN // NAN // 9 // 1747585824
+output // F
+output // D : acquiring lock...
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : acquiring lock... // NAN // 9 // 1480010240
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : acquiring lock... // NAN // 9 // 1480010240
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : acquiring lock... // NAN // 9 // 1480010240
+output // F : acquiring lock...
+output // NAN
+output // NAN
+output // E : acquiring lock...
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // D // NAN // 9 // 1173280724
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 9 // 1173280724
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // 1173280724
+output // D
+output // A
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // D // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // D // NAN // 7 // NAN 
+output // D
+output // A
+output // E : acquiring lock...
+output // F : acquiring lock...
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : got the permit! // NAN // 7 // 1480010240
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : got the permit! // NAN // 7 // 1480010240
+call // void // java.io.PrintStream.println // java.lang.String // F : acquiring lock... // NAN // 7 // 1480010240
+call // void // java.io.PrintStream.println // java.lang.String // F : acquiring lock... // NAN // 7 // 1480010240
+output // A : got the permit!
+output // D : available Semaphore permits now: 
+output // NAN
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // E // NAN // 7 // NAN 
+output // 3
+output // A : got the permit!
+output // F
+call // class java.lang.StringBuilder // java.lang.StringBuilder.<init> // java.lang.String // F // NAN // 7 // 1480010240
+call // void // java.io.PrintStream.println // java.lang.String // A : got the permit! // NAN // 7 // 1480010240
+output // E
+output // F
+output // D : available Semaphore permits now: 3
+output // NAN
+call // void // java.lang.StringBuilder.<init> // java.lang.String // E // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 7 // NAN 
+output // F : available Semaphore permits now: 
+output // D : available Semaphore permits now: 3
+output // A
+output // E
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 7 // 1876751138int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 7 // 1876751138
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 7 // 1876751138int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 7 // 1876751138
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : available Semaphore permits now:  // NAN // 7 // 1876751138
+output // A
+output // 3
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 3 // NAN // 7 // 1260990745
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 7 // 1260990745
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 7 // 1260990745
+output // A : is performing operation 
+output // F : available Semaphore permits now: 3
+output // E : available Semaphore permits now: 
+output // NAN
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 7 // 1747585824
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 7 // 1747585824
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // 1747585824
+call // void // java.util.concurrent.Semaphore.acquire // NAN // NAN // NAN // 7 // 1747585824
+output // 3
+output // A : is performing operation 1
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 3 // NAN // 7 // 755700720
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 7 // 755700720
+output // NAN
+output // E : available Semaphore permits now: 3
+output // A : is performing operation 1, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 7 // 1747585824
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 7 // 1747585824
+output // F : available Semaphore permits now: 3
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // D // NAN // 7 // 1747585824
+output // D
+output // E : available Semaphore permits now: 3
+output // 2
+call // void // java.io.PrintStream.println // java.lang.String // F : available Semaphore permits now: 3 // NAN // 5 // NAN 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 7 // 1480010240
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 7 // 1480010240
+call // void // java.io.PrintStream.println // java.lang.String // E : available Semaphore permits now: 3 // NAN // 7 // 1480010240
+output // D
+output // NAN
+output // A : is performing operation 1, available Semaphore permits : 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : got the permit! // NAN // 7 // 755700720
+call // void // java.util.concurrent.Semaphore.acquire // NAN // NAN // NAN // 7 // 755700720
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // 755700720
+output // NAN
+call // void // java.util.concurrent.Semaphore.acquire // NAN // NAN // NAN // 7 // 1747585824
+output // NAN
+output // D : got the permit!
+output // A : is performing operation 1, available Semaphore permits : 2
+output // NAN
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // NAN  // java.lang.String // A : is performing operation 1, available Semaphore permits : 2 // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // NAN  // java.lang.String // A : is performing operation 1, available Semaphore permits : 2 // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // NAN  // java.lang.String // A : is performing operation 1, available Semaphore permits : 2 // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 7 // NAN 
+output // D : got the permit!
+output // F
+output // NAN
+output // E
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 7 // NAN 
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 7 // NAN 
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 7 // NAN 
+output // NAN
+output // F
+output // E
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : got the permit!
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : got the permit! // NAN // 7 // 1219702174
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : got the permit! // NAN // 7 // 1219702174
+output // D
+output // F : got the permit!
+output // E : got the permit!
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // D // NAN // 7 // 1219702174
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // 1219702174
+output // F : got the permit!
+output // D
+output // E : got the permit!
+call // void // java.io.PrintStream.println // java.lang.String // F : got the permit! // NAN // 7 // NAN 
+call // void // java.io.PrintStream.println // java.lang.String // F : got the permit! // NAN // 7 // NAN 
+call // void // java.io.PrintStream.println // java.lang.String // E : got the permit! // NAN // 7 // 1480010240
+output // D
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 7 // NAN 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : releasing lock... // NAN // 7 // NAN 
+output // NAN
+output // F
+output // D : releasing lock...
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // 1284288592
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 7 // 1284288592
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // E // NAN // 7 // 1284288592
+output // F
+output // D : releasing lock...
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 7 // 1480010240 // D : releasing lock... // NAN // 7 // 1480010240
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 7 // 1480010240 // D : releasing lock... // NAN // 7 // 1480010240
+output // F : is performing operation 
+output // E
+output // NAN
+call // class java.lang.StringBuilder // java.lang.StringBuilder.<init> // java.lang.String // E // NAN // 7 // 1747585824
+call // void // java.util.concurrent.Semaphore.release // NAN // NAN // NAN // 7 // 1747585824
+output // E
+output // F : is performing operation 1
+output // NAN
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 6class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 6 // NAN 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 6class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 6 // NAN 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // D // NAN // 6 // NAN 
+output // E : is performing operation 
+output // F : is performing operation 1, available Semaphore permits : 
+output // D
+call // class java.lang.StringBuilder // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 5 // NAN  // NAN // 5 // NAN 
+call // class java.lang.StringBuilder // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 5 // NAN  // NAN // 5 // NAN 
+call // class java.lang.StringBuilder // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 5 // NAN  // NAN // 5 // NAN 
+output // E : is performing operation 1
+output // D
+output // 1
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : available Semaphore permits now:  // NAN // 5 // 691307145
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : available Semaphore permits now:  // NAN // 5 // 691307145
+output // E : is performing operation 1, available Semaphore permits : 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 5 // 691307145
+output // D : available Semaphore permits now: 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 5 // 1747585824
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 5 // 1747585824
+output // 1
+output // F : is performing operation 1, available Semaphore permits : 1
+output // 1
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 5 // 160311205
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 5 // 160311205
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 5 // 160311205
+output // E : is performing operation 1, available Semaphore permits : 1
+output // F : is performing operation 1, available Semaphore permits : 1
+output // D : available Semaphore permits now: 1
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 5 // 160311205
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 5 // 160311205
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 5 // 160311205
+output // E : is performing operation 1, available Semaphore permits : 1
+output // D : available Semaphore permits now: 1
+output // NAN
+call // void // java.io.PrintStream.println // java.lang.String // D : available Semaphore permits now: 1 // NAN // 5 // NAN 
+call // void // java.io.PrintStream.println // java.lang.String // D : available Semaphore permits now: 1 // NAN // 5 // NAN 
+call // void // java.io.PrintStream.println // java.lang.String // D : available Semaphore permits now: 1 // NAN // 5 // NAN 
+output // NAN
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 3 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 3 // NAN 
+output // A
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 3 // NAN 
+output // A
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 3 // 719220925
+output // A : is performing operation 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 3 // 719220925
+output // A : is performing operation 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 3 // 719220925
+output // A : is performing operation 2, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 3 // 1747585824
+output // 1
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 3 // 719220925
+output // A : is performing operation 2, available Semaphore permits : 1
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 3 // 719220925
+output // A : is performing operation 2, available Semaphore permits : 1
+call // void // java.io.PrintStream.println // java.lang.String // A : is performing operation 2, available Semaphore permits : 1 // NAN // 3 // 1480010240
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 3 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 3 // NAN 
+output // F
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // F // NAN // 3 // NAN 
+output // F
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 3 // 1774403695
+output // NAN
+output // F : is performing operation 
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // E // NAN // 3 // 1774403695
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 3 // 1774403695
+output // E
+output // F : is performing operation 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 3 // 1774403695
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 3 // 1774403695
+output // E
+output // F : is performing operation 2, available Semaphore permits : 
+call // class java.lang.String // java.util.concurrent.Semaphore.availablePermits // java.lang.String // E // NAN // 3 // NAN 
+call // class java.lang.String // java.util.concurrent.Semaphore.availablePermits // java.lang.String // E // NAN // 3 // NAN 
+output // E
+output // 1
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 3 // 1774403695
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 1 // NAN // 3 // 1774403695
+output // F : is performing operation 2, available Semaphore permits : 1
+output // E
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 3 // 1815484875
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 3 // 1815484875
+output // F : is performing operation 2, available Semaphore permits : 1
+output // E : releasing lock...
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // 3 // NAN // 3 // 1815484875
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // 3 // NAN // 3 // 1815484875
+output // E : releasing lock...
+output // NAN
+call // void // java.io.PrintStream.println // java.lang.String // 1000 // NAN // 3 // NAN 
+call // void // java.io.PrintStream.println // java.lang.String // 1000 // NAN // 3 // NAN 
+output // NAN
+call // void // java.util.concurrent.Semaphore.release // NAN // NAN // NAN // 3 // 1747585824
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // E // NAN // 3 // NAN 
+output // E
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // E // NAN // 3 // NAN 
+output // E
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : available Semaphore permits now:  // NAN // 3 // 686925461
+output // E : available Semaphore permits now: 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 3 // 1747585824
+output // 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 3 // 686925461
+output // E : available Semaphore permits now: 2
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 3 // 686925461
+output // E : available Semaphore permits now: 2
+call // void // java.io.PrintStream.println // java.lang.String // E : available Semaphore permits now: 2 // NAN // 3 // 1480010240
+output // NAN
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 1 // 1811520444
+output // A : is performing operation 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 3 // NAN // 1 // 1811520444
+output // A : is performing operation 3
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 1 // 1811520444
+output // A : is performing operation 3, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 1 // 1811520444
+output // A : is performing operation 3, available Semaphore permits : 2
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 1811520444
+output // A : is performing operation 3, available Semaphore permits : 2
+call // void // java.io.PrintStream.println // java.lang.String // A : is performing operation 3, available Semaphore permits : 2 // NAN // 1 // 1480010240
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 1 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 1 // NAN 
+output // F
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // F // NAN // 1 // NAN 
+output // F
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 1 // 944590612
+output // F : is performing operation 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 3 // NAN // 1 // 944590612
+output // F : is performing operation 3
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 1 // 944590612
+output // F : is performing operation 3, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 1 // 944590612
+output // F : is performing operation 3, available Semaphore permits : 2
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 944590612
+output // F : is performing operation 3, available Semaphore permits : 2
+call // void // java.io.PrintStream.println // java.lang.String // F : is performing operation 3, available Semaphore permits : 2 // NAN // 1 // 1480010240
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 1 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 1 // 465500943
+output // A : is performing operation 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 4 // NAN // 1 // 465500943
+output // A : is performing operation 4
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 1 // 465500943
+output // A : is performing operation 4, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 1 // 465500943
+output // A : is performing operation 4, available Semaphore permits : 2
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 465500943
+output // A : is performing operation 4, available Semaphore permits : 2
+call // void // java.io.PrintStream.println // java.lang.String // A : is performing operation 4, available Semaphore permits : 2 // NAN // 1 // 1480010240
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 1 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 1 // NAN 
+output // F
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // F // NAN // 1 // NAN 
+output // F
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 1 // 300578429
+output // F : is performing operation 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 4 // NAN // 1 // 300578429
+output // F : is performing operation 4
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 1 // 300578429
+output // F : is performing operation 4, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 1 // 300578429
+output // F : is performing operation 4, available Semaphore permits : 2
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 300578429
+output // F : is performing operation 4, available Semaphore permits : 2
+call // void // java.io.PrintStream.println // java.lang.String // F : is performing operation 4, available Semaphore permits : 2 // NAN // 1 // 1480010240
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 1 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 1 // 326323897
+output // A : is performing operation 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 5 // NAN // 1 // 326323897
+output // A : is performing operation 5
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 1 // 326323897
+output // A : is performing operation 5, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 1 // 326323897
+output // A : is performing operation 5, available Semaphore permits : 2
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 326323897
+output // A : is performing operation 5, available Semaphore permits : 2
+call // void // java.io.PrintStream.println // java.lang.String // A : is performing operation 5, available Semaphore permits : 2 // NAN // 1 // 1480010240
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 1 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 1 // NAN 
+output // F
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // F // NAN // 1 // NAN 
+output // F
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : is performing operation  // NAN // 1 // 1772214506
+output // F : is performing operation 
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 5 // NAN // 1 // 1772214506
+output // F : is performing operation 5
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String // , available Semaphore permits :  // NAN // 1 // 1772214506
+output // F : is performing operation 5, available Semaphore permits : 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 2
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 2 // NAN // 1 // 1772214506
+output // F : is performing operation 5, available Semaphore permits : 2
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 1772214506
+output // F : is performing operation 5, available Semaphore permits : 2
+call // void // java.io.PrintStream.println // java.lang.String // F : is performing operation 5, available Semaphore permits : 2 // NAN // 1 // 1480010240
+output // NAN
+call // void // java.lang.Thread.sleep // java.lang.Long // 1000 // NAN // 1 // NAN 
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : releasing lock... // NAN // 1 // 1257345010
+output // A : releasing lock...
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 1257345010
+output // A : releasing lock...
+call // void // java.io.PrintStream.println // java.lang.String // A : releasing lock... // NAN // 1 // 1480010240
+output // NAN
+call // void // java.util.concurrent.Semaphore.release // NAN // NAN // NAN // 1 // 1747585824
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // A // NAN // 1 // NAN 
+output // A
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : available Semaphore permits now:  // NAN // 1 // 1844627819
+output // A : available Semaphore permits now: 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // 1 // 1747585824
+output // 3
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 3 // NAN // 1 // 1844627819
+output // NAN
+output // A : available Semaphore permits now: 3
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // 1 // NAN 
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // 1 // 1844627819
+output // A : available Semaphore permits now: 3
+output // F
+call // void // java.io.PrintStream.println // java.lang.String // A : available Semaphore permits now: 3 // NAN // 1 // NAN 
+call // void // java.lang.StringBuilder.<init> // java.lang.String // F // NAN // 1 // NAN 
+output // NAN
+output // NAN
+output // F
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : releasing lock... // NAN // -1 // 437398921
+output // F : releasing lock...
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // -1 // 437398921
+output // F : releasing lock...
+call // void // java.io.PrintStream.println // java.lang.String // F : releasing lock... // NAN // -1 // 1480010240
+output // NAN
+call // void // java.util.concurrent.Semaphore.release // NAN // NAN // NAN // -1 // 1747585824
+output // NAN
+call // class java.lang.String // java.lang.String.valueOf // java.lang.String // F // NAN // -1 // NAN 
+output // F
+call // class java.lang.String // java.lang.StringBuilder.<init> // java.lang.String // F // NAN // -1 // NAN 
+output // F
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.String //  : available Semaphore permits now:  // NAN // -1 // 1215689776
+output // F : available Semaphore permits now: 
+call // int // java.util.concurrent.Semaphore.availablePermits // NAN // NAN // NAN // -1 // 1747585824
+output // 4
+call // class java.lang.StringBuilder // java.lang.StringBuilder.append // java.lang.Integer // 4 // NAN // -1 // 1215689776
+output // F : available Semaphore permits now: 4
+call // class java.lang.String // java.lang.StringBuilder.toString // NAN // NAN // NAN // -1 // 1215689776
+output // F : available Semaphore permits now: 4
+call // void // java.io.PrintStream.println // java.lang.String // F : available Semaphore permits now: 4 // NAN // -1 // 1480010240
+output // NAN
+output // NAN

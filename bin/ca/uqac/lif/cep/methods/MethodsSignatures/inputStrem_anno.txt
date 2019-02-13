@@ -1,0 +1,1 @@
+java.util.OutputStream.write java.lang.String 2

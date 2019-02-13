@@ -1,0 +1,44 @@
+call // void // safeenumExample.main // [Ljava.lang.String; // [Ljava.lang.String;@72ea2f77 // NAN // 0 // NAN
+output // NAN
+call // void // java.util.Vector.<init> // NAN // NAN // NAN // 1 // NAN
+output // NAN
+call // boolean // java.util.Vector.add // java.lang.String // Chaitanya // NAN // 1 // 1
+output // true
+call // boolean // java.util.Vector.add // java.lang.String // Shubham // NAN // 1 // -966983877
+output // true
+call // boolean // java.util.OutputStream.write // java.lang.String // Apoorv // NAN // 1 // -966983877
+output // NAN
+call // boolean // java.util.Vector.add // java.lang.String // Apoorv // NAN // 1 // -469828681
+output // true
+call // boolean // java.util.Vector.add // java.lang.String // Jin // NAN // 1 // 287959068
+output // true
+call // boolean // java.util.Vector.add // java.lang.String // Jacob // NAN // 1 // 336870995
+output // true
+call // void // java.io.PrintStream.println // java.lang.Integer // 5 // NAN // 1 // 2074407503
+output // NAN
+call // interface java.util.Enumeration // java.util.Vector.elements // NAN // NAN // NAN // 1 // 1924395212
+output // java.util.Vector$1@3b9a45b3
+call // boolean // java.util.Enumeration.hasMoreElements // NAN // NAN // NAN // 1 // 999966131
+output // true
+call // class java.lang.Object // java.util.Enumeration.nextElement // NAN // NAN // NAN // 1 // 999966131
+output // Chaitanya
+call // boolean // java.util.Enumeration.hasMoreElements // NAN // NAN // NAN // 1 // 999966131
+output // true
+call // class java.lang.Object // java.util.Enumeration.nextElement // NAN // NAN // NAN // 1 // 999966131
+output // Shubham
+call // boolean // java.util.Enumeration.hasMoreElements // NAN // NAN // NAN // 1 // 999966131
+output // true
+call // class java.lang.Object // java.util.Enumeration.nextElement // NAN // NAN // NAN // 1 // 999966131
+output // Apoorv
+call // boolean // java.util.Enumeration.hasMoreElements // NAN // NAN // NAN // 1 // 999966131
+output // true
+call // class java.lang.Object // java.util.Enumeration.nextElement // NAN // NAN // NAN // 1 // 999966131
+output // Jin
+call // boolean // java.util.Enumeration.hasMoreElements // NAN // NAN // NAN // 1 // 999966131
+output // true
+call // class java.lang.Object // java.util.Enumeration.nextElement // NAN // NAN // NAN // 1 // 999966131
+output // Jacob
+call // boolean // java.util.Enumeration.hasMoreElements // NAN // NAN // NAN // 1 // 999966131
+output // false
+call // class java.lang.Object // java.util.Enumeration.nextElement // NAN // NAN // NAN // 1 // 999966131
+output // Jacob
